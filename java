@@ -1,10 +1,9 @@
 public class java {
     public static void main(String[] args) {
+        int cont = 0;
         for(int i = 0; i < 3; i++){
-            if(i == 2) {
-                System.out.println("Hola mundo");
-            }
-            System.out.println(".");
+            cont = i - cont;
+            System.out.println(cont);
         }
     }
-}
+}∫
